@@ -58,15 +58,58 @@ Docsify is a lightweight documentation generator that helps you turn your docume
 
 ## Step by step by guide to installation and setup
 
+### Requirement of docsify
+
+    - Distributor ID: Ubuntu
+    - Description: Ubuntu 22.04.3 LTS
+    - Release: 22.04
+    - Codename: shrikant 
+    
 1. Prerequisites:
 Ensure you have Node.js and npm (Node Package Manager) installed. You can download and install them from nodejs.org.
 
-2. Install Docsify CLI:
+Check node version
+
+```bash
+node -v
+```
+Output
+
+shrikant@shrikant:~$ node -v
+
+v12.22.9
+
+Check npm version
+
+```bash
+npm -v
+```
+Output
+
+shrikant@shrikant:~$ npm -v
+
+8.5.1
+
+
+3. Install Docsify CLI:
 Open your command line interface (CLI) and run the following command to install Docsify globally:
 
 ```bash
   npm install -g docsify-cli 
 ```
+Check Docsify version
+```bash
+sudo docsify -v
+```
+Output
+
+shrikant@shrikant:~$ sudo docsify -v
+[sudo] password for shrikant: 
+
+docsify-cli version:
+
+  4.4.4
+
 
 3.Create a Documentation Directory:
 Decide on a directory for your documentation files. Create a new folder, for example, named docs. Navigate to this folder in the CLI:
