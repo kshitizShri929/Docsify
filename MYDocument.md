@@ -2,8 +2,7 @@
 
 ## Table of Contents      
 
-<!--- [Docsify](#docsify)-->
-- [Docsify](#docsify)
+  - [Docsify](#docsify)
   - [Table of Contents](#table-of-contents)
   - [Introduction of Docsify](#introduction-of-docsify)
   - [Features of Docsify](#features-of-docsify)
@@ -23,14 +22,7 @@
   - [External Script](#external-script)
   - [Deploy](#deploy)
   - [GitHub Pages](#github-pages)
-  - [GitLab Pages](#gitlab-pages)
-  - [Firebase Hosting](#firebase-hosting)
-  - [VPS](#vps)
-  - [Netlify](#netlify)
-  - [HTML5 router](#html5-router)
-  - [Vercel](#vercel)
-  - [AWS Amplify](#aws-amplify)
-  - [Docker](#docker)
+    
   - [References-](#references-)
   
 ## Introduction of Docsify
@@ -44,8 +36,6 @@ Docsify is a lightweight documentation generator that helps you turn your docume
 - Smart full-text search plugin
 - Multiple themes
 - Useful plugin API
-- Compatible with IE11
-- Experimental SSR support (example)
 - Support embedded files
 
 ## Benefits of Docsify
@@ -378,11 +368,3 @@ It is recommended that you save your files to the `./docs` subfolder of the `mai
 
 ![GitHub Pages](_images/deploy-github-pages.png)
 
-!> You can also save files in the root directory and select `main branch`.
-You'll need to place a `.nojekyll` file in the deploy location (such as `/docs` or the gh-pages branch)
-
-
-
-  ```sh
-  docker run -itp 3000:3000 --name=docsify -v $(pwd):/docs docsify/demo
-  ```
