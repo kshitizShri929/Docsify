@@ -366,5 +366,9 @@ There are three places to populate your docs for your GitHub repository:
 
 It is recommended that you save your files to the `./docs` subfolder of the `main` branch of your repository. Then select `main branch /docs folder` as your GitHub Pages source in your repository's settings page.
 
-![GitHub Pages](_images/deploy-github-pages.png)
+
+![image](https://github.com/kshitizShri929/Docsify/assets/100191247/ee9900ba-c61e-4805-b79b-2704c58ca778)
+
+
+
 
