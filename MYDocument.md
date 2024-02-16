@@ -151,7 +151,7 @@ Access Online Documentation:
 
 All core configuration for docsify is done in the index.html file using the window.$docsify script object
 
-## coverPage
+## CoverPage
 
 You can set a cover page by setting the coverpage to true and creating a _coverpage.md file in your docsify directory.
 
@@ -210,35 +210,7 @@ But don't worry, you can change that. To show the Navbar, you first have to enab
 </html>
 ```
 
-Then create a new _navbar.md file at the root level and paste the following code:
 
-- Getting started
-
-- [Quick start](quickstart.md)
-
-- [Writing more pages](more-pages.md)
-
-- [Custom navbar](custom-navbar.md)
-
-- [Cover page](cover.md)
-  
-- Configuration
-  
-- [Configuration](configuration.md)
-  
-- [Themes](themes.md)
-  
-- [Using plugins](plugins.md)
-  
-- [Markdown configuration](markdown.md)
-
--[Language highlight](language-highlight.md)
-
-Paste the following code in the _navbar.md file
-
-Your Navbar should now look like this:
-customizer-navbar
-Customize Navbar in Docsify
 
 ## Sidebar
 
@@ -255,19 +227,7 @@ In order to have a sidebar, you can create your own '_sidebar.md.'First, you nee
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-Create _sidebar.md,In the root of your documentation folder, create a file named_sidebar.md. This file will contain the structure of your sidebar. For example:
 
-```bash
-- [Home](README.md)
-- [Draft Article](draft-article.md)
-- [Guide](guide.md)
-- [intro](intro.md)
-- [Second](page-second.md)
-- [Third](page-third.md)
-- [Four](page-four.md)
-```
-
-After making these changes, when you run Docsify, you should see a sidebar on the left side of your documentation with the structure specified in the _sidebar.md file.
 
 ## hideSidebar
 
