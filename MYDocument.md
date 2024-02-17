@@ -331,7 +331,7 @@ It is recommended that you save your files to the `./docs` subfolder of the `mai
 
 ## References-
 
--<https://www.freecodecamp.org/news/how-to-write-good-documentation-with-docsify/#basic>
+- <https://www.freecodecamp.org/news/how-to-write-good-documentation-with-docsify/#basic>
 - <https://docsify.js.org/#/>
   
 - <https://docs.developer.tech.gov.sg/docs/documentation-portal-publisher-guide/advanced/markdown-features>
