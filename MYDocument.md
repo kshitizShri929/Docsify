@@ -13,7 +13,7 @@
   - [Markdown](#Markdown)
   - [Navigation](#Navigation)
   - [Sidebar](#Sidebar)
-  - [HiderSidebar](#Hidesidebar)
+  - [HideSidebar](#Hidesidebar)
   - [Configuring and enabling the search functionality in Docsify](#Configuring-and-enabling-the-search-functionality-in-docsify)
   - [Full text search](#Full-text-search)
   - [Emoji](#Emoji)
@@ -229,7 +229,7 @@ In order to have a sidebar, you can create your own '_sidebar.md.'First, you nee
 
 
 
-## hiderSidebar
+## HideSidebar
 
 This option will completely hide your sidebar and won't render any content on the side.
 
