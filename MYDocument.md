@@ -2,7 +2,7 @@
 
 ## Table of Contents      
 
-  - [Docsify](#Docsify)
+
   - [Introduction of Docsify](#Introduction-of-docsify)
   - [Features of Docsify](#Features-of-docsify)
   - [Benefits of Docsify](#Benefits-of-docsify)
@@ -23,7 +23,7 @@
     
   - [References-](#references)
 
- ## Docsify   
+    
   
 ## Introduction of Docsify
 
